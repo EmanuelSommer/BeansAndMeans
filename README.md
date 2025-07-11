@@ -1,5 +1,8 @@
 # Beans &amp; Means - Coffee Date matching @ LMU Institute of Statistics
 
+<img width="2343" height="933" alt="image" src="https://github.com/user-attachments/assets/a741d3f7-e858-4224-975d-0d08b586a0aa" />
+
+
 **Sign in like this:**
 
 1) Open: https://docs.google.com/spreadsheets/d/16lh2Ta_ZVLKOXfN-Z4_369_zkxPGWx2kUHipjnsBHbw/edit?usp=sharing
