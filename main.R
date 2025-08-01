@@ -5,6 +5,7 @@ ss = "https://docs.google.com/spreadsheets/d/16lh2Ta_ZVLKOXfN-Z4_369_zkxPGWx2kUH
 participants <- read_sheet(ss = ss, sheet = "ActiveParticipants")
 last_matches <- read_sheet(ss = ss, sheet = "Matches")
 past_matches <- read_sheet(ss = ss, sheet = "PastMatches")
+past_matches$PastMatches <- ifelse(is.na(past_matches$PastMatches), "", past_matches$PastMatches)
 
 active_names <- participants$Name
 
