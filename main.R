@@ -21,11 +21,7 @@ for (name in names(past_matches_list)) {
     next
   }
   if (!(other_name %in% past_matches_list[[name]])) {
-    past_matches_list[[name]] <- ifelse(
-      is.na(past_matches_list[[name]]),
-      other_name,
-      c(past_matches_list[[name]], other_name)
-    )
+    past_matches_list[[name]] <- c(past_matches_list[[name]], other_name)
   }
 }
 
